@@ -1,0 +1,1 @@
+if (active) pool.deactivate_obj(self);
