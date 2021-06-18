@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBody",
-    "path": "sprites/sBody/sBody.yy",
+    "name": "sBlock1_1",
+    "path": "sprites/sBlock1_1/sBlock1_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,20 +20,22 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":28.0,"y":1.0,},
-    {"x":73.0,"y":1.0,},
-    {"x":73.0,"y":75.0,},
-    {"x":28.0,"y":75.0,},
+    {"x":18.0,"y":14.0,},
+    {"x":268.0,"y":14.0,},
+    {"x":268.0,"y":94.0,},
+    {"x":18.0,"y":94.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Blocks",
+    "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oBlock1",
   "tags": [],
   "resourceType": "GMObject",
 }

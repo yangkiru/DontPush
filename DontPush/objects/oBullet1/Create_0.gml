@@ -13,7 +13,6 @@ function bullet_init() {
 
 function on_activate() {
 	var xy = irandom(1);
-	show_debug_message(xy);
 	phy_position_x = xy ? (random(1) ? 0 : room_width) : random(room_width);
 	phy_position_y = xy ? random(room_height) : (random(1) ? 0 : room_height);
 	bullet_init();
