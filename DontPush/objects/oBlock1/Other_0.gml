@@ -1,0 +1,1 @@
+pool.deactivate_obj(self);

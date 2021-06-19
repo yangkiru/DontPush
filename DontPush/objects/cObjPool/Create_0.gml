@@ -26,11 +26,11 @@ function deactivate_obj(_obj) {
 	instance_deactivate_object(_obj);
 }
 
-function pool_init(_obj) {
+function pool_init(_obj, size) {
 	obj = _obj;
 	pool = ds_stack_create();
 
-	repeat(10) {
+	repeat(size) {
 		deactivate_obj(create_obj(_obj));
 	}
 }

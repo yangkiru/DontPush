@@ -8,13 +8,14 @@ function bullet_init() {
 	phy_speed_x = 0;
 	phy_speed_y = 0;
 	physics_apply_local_impulse(0, 0, force, 0);
-	alarm[0] = 10;
+	isInit = false;
+	alarm[0] = 60;
 }
 
 function on_activate() {
 	var xy = irandom(1);
 	phy_position_x = xy ? (random(1) ? 0 : room_width) : random(room_width);
-	phy_position_y = xy ? random(room_height) : (random(1) ? 0 : room_height);
+	phy_position_y = xy ? random(room_height * 0.5) : (random(1) ? 0 : room_height * 0.5);
 	bullet_init();
 }
 

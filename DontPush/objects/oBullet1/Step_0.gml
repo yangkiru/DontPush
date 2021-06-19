@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+if (isInit && y > room_height * 0.5)
+	pool.deactivate_obj(self);
