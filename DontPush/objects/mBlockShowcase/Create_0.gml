@@ -3,6 +3,7 @@ function add_block_showcase(pool) {
 	block.phy_position_x = room_width;
 	block.phy_position_y = y;
 	block.phy_active = false;
+	block.isInventory = false;
 	ds_list_add(list, block);
 }
 

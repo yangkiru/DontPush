@@ -1,0 +1,1 @@
+draw_line(0, room_height * 0.5, room_width, room_height * 0.5);

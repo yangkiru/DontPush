@@ -2,6 +2,13 @@ function add_block_inventory(block) {
 	ds_list_add(list, block);
 	listSize = ds_list_size(list);
 	centerPoint = get_center_list(list);
+	block.isInventory = true;
+}
+
+function remove_block_inventory(block) {
+	var idx = ds_list_find_index(list, block.id);
+	ds_list_delete(list, idx);
+	listSize--;
 }
 
 function objects_center_align() {
@@ -27,7 +34,6 @@ function get_center_list(list) {
 }
 
 slotSize = 4;
-gap = 10;
 list = ds_list_create();
 listSize = 0;
 x = room_width * 0.5;
