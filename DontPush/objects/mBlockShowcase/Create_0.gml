@@ -2,6 +2,7 @@ function add_block_showcase(pool) {
 	var block = pool.activate_obj();
 	block.phy_position_x = room_width;
 	block.phy_position_y = y;
+	block.phy_active = false;
 	ds_list_add(list, block);
 }
 
@@ -12,8 +13,8 @@ function remove_block_showcase(index) {
 	with (block) {
 		on_choose();
 		var pos = sprite_width * 0.2;
-		physics_apply_impulse(random_range(x-pos, x+pos), y, 0, 7000);
 	}
+	oInventory.add_block_inventory(block);
 	ds_list_delete(list, index);
 }
 
