@@ -10,12 +10,9 @@ function add_block_showcase(pool) {
 
 function remove_block_showcase(index) {
 	if (ds_list_empty(list)) return;
-	show_debug_message("remove" + string(index));
+	if (oInventory.is_full_inventory()) return;
 	var block = list[| index];
-	with (block) {
-		on_choose();
-		var pos = sprite_width * 0.2;
-	}
+	block.on_choose();
 	oInventory.add_block_inventory(block);
 	ds_list_delete(list, index);
 	add_block_showcase(oBlock1Pool);

@@ -34,7 +34,11 @@ function get_center_list(list) {
 	return sum * 0.5;
 }
 
-slotSize = 4;
+function is_full_inventory() {
+	return ds_list_size(list) >= inventorySize;
+}
+
+inventorySize = 4;
 list = ds_list_create();
 listSize = 0;
 x = room_width * 0.5;
