@@ -1,1 +1,1 @@
-ds_stack_destroy(pool);
+ds_queue_destroy(pool);
