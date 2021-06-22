@@ -9,6 +9,7 @@ function remove_block_inventory(block) {
 	var idx = ds_list_find_index(list, block.id);
 	ds_list_delete(list, idx);
 	listSize--;
+	get_center_list(list);
 }
 
 function objects_center_align() {

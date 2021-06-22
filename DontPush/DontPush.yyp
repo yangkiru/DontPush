@@ -5,6 +5,7 @@
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":6,},
     {"id":{"name":"sBody","path":"sprites/sBody/sBody.yy",},"order":1,},
     {"id":{"name":"sBullet1","path":"sprites/sBullet1/sBullet1.yy",},"order":0,},
+    {"id":{"name":"bBlockSelector","path":"objects/bBlockSelector/bBlockSelector.yy",},"order":1,},
     {"id":{"name":"mBlockShowcase","path":"objects/mBlockShowcase/mBlockShowcase.yy",},"order":0,},
     {"id":{"name":"sLeg","path":"sprites/sLeg/sLeg.yy",},"order":2,},
     {"id":{"name":"oBlock1Pool","path":"objects/oBlock1Pool/oBlock1Pool.yy",},"order":1,},
