@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBody",
-    "path": "sprites/sBody/sBody.yy",
+    "name": "sPlayerIdle",
+    "path": "sprites/sPlayerIdle/sPlayerIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +10,7 @@
   "parentObjectId": null,
   "physicsObject": true,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 0,
   "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
@@ -20,10 +20,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":28.0,"y":1.0,},
-    {"x":73.0,"y":1.0,},
-    {"x":73.0,"y":75.0,},
-    {"x":28.0,"y":75.0,},
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
