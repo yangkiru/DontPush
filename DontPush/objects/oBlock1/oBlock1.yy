@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "cBlock",
+    "path": "objects/cBlock/cBlock.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
