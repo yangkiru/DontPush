@@ -15,3 +15,4 @@ function on_choose() {
 pool = oBlock1Pool;
 isInventory = false;
 isHandle = false;
+isRoulette = false;

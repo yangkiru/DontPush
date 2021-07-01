@@ -1,0 +1,1 @@
+if (global.rBlock > count) isOpen = false;
