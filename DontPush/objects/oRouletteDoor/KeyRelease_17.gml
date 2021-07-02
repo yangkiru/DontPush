@@ -1,1 +1,1 @@
-isOpen = !isOpen;
+open_door();
