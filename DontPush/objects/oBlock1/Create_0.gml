@@ -1,9 +1,6 @@
-function on_activate() {
-}
+/// @description Insert description here
+// You can write your code in this editor
 
-function on_choose() {
-}
+// Inherit the parent event
+event_inherited();
 
-pool = oBlock1Pool;
-isHandle = false;
-isBounce = false;
