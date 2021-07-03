@@ -1,1 +1,1 @@
-isReady = false;
+global.isReady = false;

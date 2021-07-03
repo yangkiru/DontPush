@@ -21,10 +21,9 @@ function add_block_roulette(pool) {
 	block.phy_position_y = y+yy;
 	
 	block.isRoulette = true;
-	with(block)
-		physics_apply_local_impulse(0, 0, 100, 0);
 	
 	ds_list_add(list, block);
+	show_debug_message(ds_list_size(list));
 }
 
 function remove_block_roulette(block) {
