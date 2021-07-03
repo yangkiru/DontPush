@@ -2,7 +2,8 @@ radius = 175;
 
 list = ds_list_create();
 
-x = room_width * 0.5;
+
+x = 0 - sprite_width;
 y = room_height * 0.25;
 global.rBlock = 0;
 dir = 0;
@@ -23,7 +24,6 @@ function add_block_roulette(pool) {
 	block.isRoulette = true;
 	
 	ds_list_add(list, block);
-	show_debug_message(ds_list_size(list));
 }
 
 function remove_block_roulette(block) {
