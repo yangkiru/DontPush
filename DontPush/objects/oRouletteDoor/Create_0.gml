@@ -15,4 +15,5 @@ function open_door() {
 function close_door() {
 	isOpen = false;
 	phy_active = true;
+	oRoulette.alarm[3] = 60;
 }

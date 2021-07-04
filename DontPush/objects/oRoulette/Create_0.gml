@@ -8,6 +8,8 @@ y = room_height * 0.25;
 global.rBlock = 0;
 dir = 0;
 isOpenable = false;
+isDisappear = false;
+pop = 3;
 
 function add_block_roulette(pool) {
 	var block = pool.activate_obj();

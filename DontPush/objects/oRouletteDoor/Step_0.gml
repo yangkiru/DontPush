@@ -7,6 +7,6 @@ for (var i=0; i<ds_list_size(list); i++) {
 		oRoulette.remove_block_roulette(block.id);
 	}
 }
-if (passed > count) {
+if (passed > count && isOpen) {
 	close_door();
 }

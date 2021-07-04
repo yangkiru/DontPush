@@ -1,6 +1,6 @@
-///// @description pop corn
+///// @description pop
 isOpenable = true;
-if (!oRouletteDoor.isOpen) {
+if (!oRouletteDoor.isOpen && !isDisappear) {
 	var xx = random_range(oRouletteDoor.x - oRouletteDoor.sprite_width*0.5, oRouletteDoor.x + oRouletteDoor.sprite_width*0.5);
 	var yy = oRouletteDoor.y;
 	oPlayer.phy_position_x = xx;
@@ -16,5 +16,7 @@ if (!oRouletteDoor.isOpen) {
 		}
 	}
 }
-alarm[1] = 80;
-
+if (--pop > 0)
+	alarm[1] = 80;
+else
+	oRouletteDoor.open_door();
