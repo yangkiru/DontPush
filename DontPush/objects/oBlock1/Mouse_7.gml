@@ -1,3 +1,0 @@
-if (isHandle) {
-	isHandle = false;
-}

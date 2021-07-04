@@ -8,10 +8,11 @@ if (!oRouletteDoor.isOpen) {
 	for (var i=0; i<ds_list_size(list); i++) {
 		var block = list[| i];
 		with(block) {
-			var force = 300;
+			var force = 8;
 			var dist = distance_to_point(xx, yy);
 			if (dist == 0) continue;
-			physics_apply_impulse(xx, yy, (x-xx)*force/dist, (y-yy)*force/dist);
+			phy_speed_x += (x-xx)*force/dist;
+			phy_speed_y += (y-yy)*force/dist;
 		}
 	}
 }
