@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description choose
+choose_block(list[| irandom(ds_list_size(list)-1)]);

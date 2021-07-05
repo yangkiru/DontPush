@@ -1,5 +1,6 @@
 ///// @description pop
 isOpenable = true;
+alarm[4] = 1;
 if (!oRouletteDoor.isOpen && !isDisappear) {
 	var xx = random_range(oRouletteDoor.x - oRouletteDoor.sprite_width*0.5, oRouletteDoor.x + oRouletteDoor.sprite_width*0.5);
 	var yy = oRouletteDoor.y;
@@ -16,8 +17,7 @@ if (!oRouletteDoor.isOpen && !isDisappear) {
 		}
 	}
 }
-if (--pop > 0)
+if (--chooseCurrent > 0) {
 	alarm[1] = 80;
-else
-	repeat(5) choose_block(list[| irandom(ds_list_size(list)-1)]);
+}
 	//oRouletteDoor.open_door();

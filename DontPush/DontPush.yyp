@@ -7,6 +7,7 @@
     {"id":{"name":"bGameStartBtn","path":"objects/bGameStartBtn/bGameStartBtn.yy",},"order":0,},
     {"id":{"name":"mGameManager","path":"objects/mGameManager/mGameManager.yy",},"order":3,},
     {"id":{"name":"oMoney","path":"objects/oMoney/oMoney.yy",},"order":6,},
+    {"id":{"name":"oBlackHole","path":"objects/oBlackHole/oBlackHole.yy",},"order":2,},
     {"id":{"name":"sBlock2","path":"sprites/sBlock2/sBlock2.yy",},"order":2,},
     {"id":{"name":"oRoulette","path":"objects/oRoulette/oRoulette.yy",},"order":0,},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":5,},

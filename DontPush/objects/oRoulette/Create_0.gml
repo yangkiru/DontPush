@@ -10,6 +10,8 @@ dir = 0;
 isOpenable = false;
 isDisappear = false;
 pop = 3;
+chooseAmount = 5;
+chooseCurrent = chooseAmount;
 
 function add_block_roulette(pool) {
 	var block = pool.activate_obj();
@@ -48,6 +50,7 @@ function create_fixture_sphere(startAngle, lastAngle, piece) {
 
 function choose_block(block) {
 	block.on_choose();
+	oBlackHole.add_block_blackhole(block);
 }
 
 function draw_fixture_sphere(startAngle, lastAngle, piece) {

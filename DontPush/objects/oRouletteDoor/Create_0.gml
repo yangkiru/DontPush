@@ -4,16 +4,16 @@ isOpen = false;
 count = 3;
 passed = 0;
 
-function open_door() {
-	if (oRoulette.isOpenable) {
-		isOpen = true;
-		phy_active = false;
-		passed = 0;
-	}
-}
+//function open_door() {
+//	if (oRoulette.isOpenable) {
+//		isOpen = true;
+//		phy_active = false;
+//		passed = 0;
+//	}
+//}
 
-function close_door() {
-	isOpen = false;
-	phy_active = true;
-	oRoulette.alarm[3] = 60;
-}
+//function close_door() {
+//	isOpen = false;
+//	phy_active = true;
+//	oRoulette.alarm[3] = 60;
+//}
