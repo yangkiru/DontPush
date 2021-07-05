@@ -8,7 +8,7 @@ if (!oRouletteDoor.isOpen && !isDisappear) {
 	for (var i=0; i<ds_list_size(list); i++) {
 		var block = list[| i];
 		with(block) {
-			var force = 8;
+			var force = 20;
 			var dist = distance_to_point(xx, yy);
 			if (dist == 0) continue;
 			phy_speed_x += (x-xx)*force/dist;
@@ -19,4 +19,5 @@ if (!oRouletteDoor.isOpen && !isDisappear) {
 if (--pop > 0)
 	alarm[1] = 80;
 else
-	oRouletteDoor.open_door();
+	repeat(5) choose_block(list[| irandom(ds_list_size(list)-1)]);
+	//oRouletteDoor.open_door();

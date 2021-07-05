@@ -46,6 +46,10 @@ function create_fixture_sphere(startAngle, lastAngle, piece) {
 	physics_fixture_bind(fix, id);
 }
 
+function choose_block(block) {
+	block.on_choose();
+}
+
 function draw_fixture_sphere(startAngle, lastAngle, piece) {
 	var angle = startAngle;
 	var xx = 0, yy = 0;

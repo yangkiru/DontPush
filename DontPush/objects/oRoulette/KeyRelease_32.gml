@@ -1,1 +1,0 @@
-add_block_roulette(oBlock1Pool);
