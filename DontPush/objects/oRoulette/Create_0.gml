@@ -12,6 +12,7 @@ isDisappear = false;
 pop = 3;
 chooseAmount = 5;
 chooseCurrent = chooseAmount;
+deactivateTime = 0;
 
 function add_block_roulette(pool) {
 	var block = pool.activate_obj();

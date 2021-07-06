@@ -1,2 +1,2 @@
 draw_self();
-physics_draw_debug();
+//physics_draw_debug();

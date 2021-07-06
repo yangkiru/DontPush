@@ -4,5 +4,5 @@ function set_game_end() {
 }
 
 global.gameEnd = false;
-phy_position_x = room_width * 0.5;
-phy_position_y = room_height * 0.25;
+phy_active = false;
+visible = false;

@@ -5,6 +5,7 @@ spriteArray = [sBlock1, sBlock2, sBlock3, sBlock4];
 rnd = irandom(3);
 density = densityArray[rnd];
 fix = noone;
+fixGap = noone;
 function on_activate() {
 	var f = physics_fixture_create();
 	physics_fixture_set_box_shape(f, sprite_width*0.5, sprite_height*0.5);
