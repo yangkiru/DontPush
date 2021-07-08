@@ -18,6 +18,7 @@
     {"id":{"name":"bBlockBuyer","path":"objects/bBlockBuyer/bBlockBuyer.yy",},"order":1,},
     {"id":{"name":"mBlockShowcase","path":"objects/mBlockShowcase/mBlockShowcase.yy",},"order":0,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":15,},
+    {"id":{"name":"sBullet111","path":"sprites/sBullet111/sBullet111.yy",},"order":1,},
     {"id":{"name":"sRoulette","path":"sprites/sRoulette/sRoulette.yy",},"order":3,},
     {"id":{"name":"oBlock1Pool","path":"objects/oBlock1Pool/oBlock1Pool.yy",},"order":1,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":1,},

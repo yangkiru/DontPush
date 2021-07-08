@@ -1,3 +1,3 @@
-if (!isRoulette) {
+if (!isRoulette && !global.isReady) {
 	isHandle = true;
 }

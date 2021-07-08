@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBullet1",
-    "path": "sprites/sBullet1/sBullet1.yy",
+    "name": "sBullet111",
+    "path": "sprites/sBullet111/sBullet111.yy",
   },
   "solid": false,
   "visible": true,
@@ -13,7 +13,7 @@
   },
   "physicsObject": true,
   "physicsSensor": false,
-  "physicsShape": 0,
+  "physicsShape": 1,
   "physicsGroup": -1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
@@ -23,8 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":32.0,"y":32.0,},
-    {"x":16.0,"y":32.0,},
+    {"x":0.0,"y":0.0,},
+    {"x":18.0,"y":0.0,},
+    {"x":18.0,"y":8.0,},
+    {"x":0.0,"y":8.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

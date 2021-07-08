@@ -27,6 +27,9 @@ function deactivate_blackHole() {
 	isActivate = false;
 	for (var i=0; i<ds_list_size(list); i++) {
 		var block = list[| i];
+		block.phy_speed_x = 0;
+		block.phy_speed_y = 0;
+		block.phy_angular_velocity = 0;
 		remove_block_blackhole(block);
 	}
 }
