@@ -29,7 +29,6 @@
     {"id":{"name":"oRouletteDoor","path":"objects/oRouletteDoor/oRouletteDoor.yy",},"order":1,},
     {"id":{"name":"fMoney","path":"fonts/fMoney/fMoney.yy",},"order":0,},
     {"id":{"name":"sPlayerDamaged","path":"sprites/sPlayerDamaged/sPlayerDamaged.yy",},"order":0,},
-    {"id":{"name":"oBullet1Pool","path":"objects/oBullet1Pool/oBullet1Pool.yy",},"order":1,},
     {"id":{"name":"cBullet","path":"objects/cBullet/cBullet.yy",},"order":3,},
     {"id":{"name":"oBullet2","path":"objects/oBullet2/oBullet2.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

@@ -1,6 +1,5 @@
 function bullet_init() {
 	var force = 200;
-	//var pd = point_direction(phy_position_x, phy_position_y, oPlayer.x, oPlayer.y);
 	var pd = point_direction(phy_position_x, phy_position_y, mouse_x, mouse_y);
 	var lx = lengthdir_x(force, pd);
 	var ly = lengthdir_y(force, pd);
