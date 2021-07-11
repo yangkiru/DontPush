@@ -20,5 +20,4 @@ function on_activate() {
 	bullet_init();
 }
 
-pool = oBullet1Pool;
 isInit = false;

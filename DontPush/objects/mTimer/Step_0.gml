@@ -3,6 +3,6 @@ if (time > 0) time--;
 else {
 	global.isReady = true;
 	mBulletSpawner.alarm[0] = 1;
-	oPlayer.phy_active = true;
+	oPlayer.set_fixture_density(oPlayer.density);
 	isTimer = false;
 }
