@@ -7,6 +7,7 @@ function add_block_blackhole(block) {
 	ds_list_add(list, block);
 	var f = physics_fixture_create();
 	with (block) {
+		accel = 1;
 		physics_fixture_set_circle_shape(f, sprite_width);
 		physics_fixture_set_collision_group(f, 2);
 		physics_fixture_set_density(f, 0);

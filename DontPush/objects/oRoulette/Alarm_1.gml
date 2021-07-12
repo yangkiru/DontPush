@@ -1,6 +1,6 @@
 ///// @description pop
 isOpenable = true;
-alarm[4] = 1; // choose
+alarm[4] = 20; // choose
 if (!oRouletteDoor.isOpen && !isDisappear) {
 	var xx = random_range(oRouletteDoor.x - oRouletteDoor.sprite_width*0.5, oRouletteDoor.x + oRouletteDoor.sprite_width*0.5);
 	var yy = oRouletteDoor.y;
@@ -18,6 +18,6 @@ if (!oRouletteDoor.isOpen && !isDisappear) {
 if (--chooseCurrent > 0) {
 	alarm[1] = 80;
 } else {
-	alarm[5] = 120;
+	alarm[5] = 180;
 }
 	//oRouletteDoor.open_door();

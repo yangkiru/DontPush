@@ -47,25 +47,12 @@ function create_fixture_sphere(startAngle, lastAngle, piece) {
 		angle += inc;
 	}
 	physics_fixture_bind(fix, id);
+	physics_fixture_delete(fix);
 }
 
 function choose_block(block) {
 	block.on_choose();
 	oBlackHole.add_block_blackhole(block);
-}
-
-function draw_fixture_sphere(startAngle, lastAngle, piece) {
-	var angle = startAngle;
-	var xx = 0, yy = 0;
-	var inc =  abs(startAngle-lastAngle) / piece;
-	draw_primitive_begin(pr_linestrip);
-	for (var i = 0; i < piece+1; i++;) {
-		xx = lengthdir_x(radius, angle);
-		yy = lengthdir_y(radius, angle);
-		draw_vertex(x+xx, y+yy);
-		angle += inc;
-	}
-	draw_primitive_end();
 }
 
 //create_fixture_sphere(0, 360, 10);
