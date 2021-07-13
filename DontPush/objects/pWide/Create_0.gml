@@ -26,10 +26,9 @@ function init() {
 function shoot() {
 	if (!isInit) return;
 	var bullet = instance_create_layer(0, 0, "Instances", oBullet1);
-	var dirWidth = choose(-45, 45);
-	var ww = random_range(-width, width);
-	var xx = lengthdir_x(ww, dir + dirWidth);
-	var yy = lengthdir_y(ww, dir + dirWidth);
+	var ww = random_range(0, width);
+	var rnd = choose(-1, 1);
+	var xx = lengthdir_x(ww, -dir+rnd * 90);
+	var yy = lengthdir_y(ww, -dir+rnd * 90);
 	bullet.shoot(x+xx, y+yy, dir, 200);
-	//bullet.shoot(x, y, -dir, 200);
 }
