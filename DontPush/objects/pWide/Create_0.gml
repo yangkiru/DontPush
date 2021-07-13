@@ -15,7 +15,13 @@ function init() {
 
 	dir = -point_direction(startPosX, startPosY, centerX, centerY);
 	image_angle = -dir;
-	width = random_range(100, 300);
+	width = random_range(100, 200);
+	x1 = lengthdir_x(width, -dir+90);
+	y1 = lengthdir_y(width, -dir+90);
+	x2 = lengthdir_x(width, -dir-90);
+	y2 = lengthdir_y(width, -dir-90);
+	x3 = lengthdir_x((centerX+x)*0.1,-dir);
+	y3 = lengthdir_y((centerY+y)*0.1,-dir);
 	force = 200;
 	isInit = true;
 	image_xscale = 600;

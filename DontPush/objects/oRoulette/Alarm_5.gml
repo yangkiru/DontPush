@@ -7,6 +7,8 @@ oPlayer.phy_position_y = room_height * 0.5;
 oPlayer.visible = true;
 oPlayer.set_fixture_density(0);
 
+mBulletSpawner.init();
+
 mTimer.time = 15 * room_speed;
 
 mTimer.isTimer = true;

@@ -10,7 +10,7 @@ dir = 0;
 isOpenable = false;
 isDisappear = false;
 pop = 3;
-chooseAmount = 5;
+chooseAmount = 7;
 chooseCurrent = chooseAmount;
 deactivateTime = 0;
 
