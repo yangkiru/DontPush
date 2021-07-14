@@ -20,7 +20,9 @@ function set_game_end() {
 }
 
 init_fixture();
-
+phy_active = false;
+oPlayer.phy_position_x = room_width * 0.5;
+oPlayer.phy_position_y = room_height * 0.5;
 global.gameEnd = false;
 visible = false;
 density = 0.5;

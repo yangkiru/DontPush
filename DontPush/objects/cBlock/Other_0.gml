@@ -1,1 +1,1 @@
-if (global.isReady) pool.deactivate_obj(self);
+if (global.isReady) instance_destroy(id);

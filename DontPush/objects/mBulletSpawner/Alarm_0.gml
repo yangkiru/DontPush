@@ -1,2 +1,2 @@
-if (global.gameEnd) return;
+if (global.gameEnd || !global.isReady) return;
 shoot();

@@ -8,3 +8,11 @@ for (var i=0; i<ds_list_size(list); i++) {
 }
 oRouletteDoor.phy_position_x += dist;
 if (room_width + sprite_width - x > 100 ) alarm[3] = 1;
+else {
+	for (var i=0; i<ds_list_size(list); i++) {
+		var block = list[| i];
+		instance_destroy(block);
+	}
+	ds_list_clear(list);
+	oBlackHole.isActivate = false;
+}

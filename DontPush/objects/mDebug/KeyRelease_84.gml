@@ -1,0 +1,1 @@
+mTimer.time = 10;

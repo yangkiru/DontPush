@@ -21,7 +21,6 @@ function add_block_blackhole(block) {
 function remove_block_blackhole(block) {
 	if (block.fixGap != noone)
 		physics_remove_fixture(block, block.fixGap);
-	block.isRoulette = false;
 }
 
 function deactivate_blackHole() {
@@ -33,4 +32,6 @@ function deactivate_blackHole() {
 		block.phy_angular_velocity = 0;
 		remove_block_blackhole(block);
 	}
+	
+	ds_list_clear(list);
 }
