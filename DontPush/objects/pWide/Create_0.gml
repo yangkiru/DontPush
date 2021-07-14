@@ -16,18 +16,18 @@ function init() {
 	dir = -point_direction(startPosX, startPosY, centerX, centerY);
 	image_angle = -dir;
 	width = random_range(100, 200);
-	x1 = lengthdir_x(width, -dir+90);
-	y1 = lengthdir_y(width, -dir+90);
-	x2 = lengthdir_x(width, -dir-90);
-	y2 = lengthdir_y(width, -dir-90);
-	x3 = lengthdir_x((centerX+x)*0.1,-dir);
-	y3 = lengthdir_y((centerY+y)*0.1,-dir);
+	x1 = x + lengthdir_x(width, -dir+90);
+	y1 = y + lengthdir_y(width, -dir+90);
+	x2 = x + lengthdir_x(width, -dir-90);
+	y2 = y + lengthdir_y(width, -dir-90);
+	x3 = x1 + lengthdir_x(1100, -dir);
+	y3 = y1 + lengthdir_y(1100, -dir);
+	x4 = x2 + lengthdir_x(1100, -dir);
+	y4 = y2 + lengthdir_y(1100, -dir);
+	//x3 = x + lengthdir_x((centerX+x)*0.1,-dir);
+	//y3 = y + lengthdir_y((centerY+y)*0.1,-dir);
 	force = 200;
 	isInit = true;
-	image_xscale = 600;
-	image_yscale = width;
-	image_alpha = 0.3;
-	image_blend = c_lime;
 }
 function shoot() {
 	if (!isInit) return;
