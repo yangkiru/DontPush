@@ -1,7 +1,7 @@
 event_inherited();
 
 densityArray = [2, 5, 10, 25]; // 밀도
-spriteArray = [sBlock1_1, sBlock1_2, sBlock1_3, sBlock1_4];
+spriteArray = [sBlock2_1, sBlock2_2, sBlock2_3, sBlock2_4];
 rnd = irandom(3);
 density = densityArray[rnd];
 fix = noone;

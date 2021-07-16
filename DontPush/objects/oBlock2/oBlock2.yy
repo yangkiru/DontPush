@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBlock1_1",
-    "path": "sprites/sBlock1_1/sBlock1_1.yy",
+    "name": "sBlock2_1",
+    "path": "sprites/sBlock2_1/sBlock2_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -37,7 +37,7 @@
     "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBlock1",
+  "name": "oBlock2",
   "tags": [],
   "resourceType": "GMObject",
 }
