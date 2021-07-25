@@ -6,6 +6,7 @@ rnd = irandom(3);
 density = densityArray[rnd];
 fix = noone;
 fixGap = noone;
+angle = irandom(1) ? 0 : 90;
 function on_activate() {
 	var f = physics_fixture_create();
 	physics_fixture_set_box_shape(f, sprite_width*0.5, sprite_height*0.5);

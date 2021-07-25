@@ -5,3 +5,4 @@ function on_choose() {
 }
 isHandle = false;
 isBounce = false;
+angle = 0;
