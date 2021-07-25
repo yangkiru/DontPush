@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sBullet1",
-    "path": "sprites/sBullet1/sBullet1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
