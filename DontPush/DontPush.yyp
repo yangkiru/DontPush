@@ -38,6 +38,7 @@
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":1,},
     {"id":{"name":"oBullet1","path":"objects/oBullet1/oBullet1.yy",},"order":0,},
     {"id":{"name":"cObjPool","path":"objects/cObjPool/cObjPool.yy",},"order":1,},
+    {"id":{"name":"collision_line_point","path":"scripts/collision_line_point/collision_line_point.yy",},"order":4,},
     {"id":{"name":"sBlock2_1","path":"sprites/sBlock2_1/sBlock2_1.yy",},"order":0,},
     {"id":{"name":"oBlock1","path":"objects/oBlock1/oBlock1.yy",},"order":0,},
     {"id":{"name":"mBulletSpawner","path":"objects/mBulletSpawner/mBulletSpawner.yy",},"order":0,},
