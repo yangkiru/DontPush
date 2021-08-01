@@ -4,7 +4,7 @@ function init() {
 	count = 0;
 	switch(level) {
 		case 1:
-			pWide.init();
+			pCross.init();
 		break;
 	}
 }
@@ -12,7 +12,7 @@ function init() {
 function shoot() {
 	switch(level) {
 		case 1:
-			pWide.shoot();
+			pCross.shoot();
 			if (count < room_speed * 20)
 				alarm[0] = 1;
 			else
