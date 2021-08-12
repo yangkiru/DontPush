@@ -52,6 +52,7 @@
     {"id":{"name":"eBullet1Sharp","path":"objects/eBullet1Sharp/eBullet1Sharp.yy",},"order":0,},
     {"id":{"name":"sPlayerDamaged","path":"sprites/sPlayerDamaged/sPlayerDamaged.yy",},"order":0,},
     {"id":{"name":"cBullet","path":"objects/cBullet/cBullet.yy",},"order":3,},
+    {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":5,},
     {"id":{"name":"oBullet2","path":"objects/oBullet2/oBullet2.yy",},"order":2,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
