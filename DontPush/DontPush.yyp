@@ -15,6 +15,7 @@
     {"id":{"name":"mGameManager","path":"objects/mGameManager/mGameManager.yy",},"order":3,},
     {"id":{"name":"get_hover","path":"scripts/get_hover/get_hover.yy",},"order":7,},
     {"id":{"name":"oMoney","path":"objects/oMoney/oMoney.yy",},"order":6,},
+    {"id":{"name":"spldie","path":"sprites/spldie/spldie.yy",},"order":18,},
     {"id":{"name":"sBulletEf1","path":"sprites/sBulletEf1/sBulletEf1.yy",},"order":1,},
     {"id":{"name":"oBlackHole","path":"objects/oBlackHole/oBlackHole.yy",},"order":2,},
     {"id":{"name":"sBlock2_2","path":"sprites/sBlock2_2/sBlock2_2.yy",},"order":1,},
