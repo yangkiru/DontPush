@@ -1,1 +1,2 @@
+isDead = false;
 menuOpen = false;

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Button",
+    "path": "folders/Scripts/Button.yy",
   },
   "resourceVersion": "1.0",
   "name": "create_button",

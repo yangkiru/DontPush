@@ -16,6 +16,7 @@ function init() {
 	chooseCurrent = chooseAmount;
 	phy_position_x = 0 - sprite_width;
 	phy_position_y = room_height * 0.25;
+	ds_list_clear(list);
 }
 
 function add_block_roulette(obj) {
