@@ -15,11 +15,10 @@ function init() {
 
 
 	dir = -point_direction(startPosX, startPosY, centerX, centerY);
-	image_angle = -dir-90;
+	image_angle = -dir-90; 
 	width = random_range(5, 10);
 	
 	image_xscale = width; // sprite_width이 자동으로 바뀜
-	image_yscale = 2;
 	
 	force = 200;
 	isInit = true;
