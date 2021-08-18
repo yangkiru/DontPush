@@ -14,12 +14,6 @@ function set_fixture_density(val) {
 	fix = physics_fixture_bind(f, id);
 }
 
-function set_game_end() {
-	global.gameEnd = true;
-	with (mDeadManager) event_user(0); // create menu
-	show_debug_message("player dead");
-}
-
 init_fixture();
 phy_active = false;
 oPlayer.phy_position_x = room_width * 0.5;

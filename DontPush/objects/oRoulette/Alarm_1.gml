@@ -1,7 +1,7 @@
 ///// @description pop
 isOpenable = true;
 alarm[4] = 20; // choose
-if (!oRouletteDoor.isOpen && !isDisappear) {
+if (!isDisappear) {
 	var xx = random_range(oRouletteDoor.x - oRouletteDoor.sprite_width*0.5, oRouletteDoor.x + oRouletteDoor.sprite_width*0.5);
 	var yy = oRouletteDoor.y;
 	for (var i=0; i<ds_list_size(list); i++) {

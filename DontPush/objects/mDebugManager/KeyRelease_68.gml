@@ -1,1 +1,1 @@
-oPlayer.set_game_end();
+set_game_end();

@@ -16,7 +16,18 @@ function init() {
 	chooseCurrent = chooseAmount;
 	phy_position_x = 0 - sprite_width;
 	phy_position_y = room_height * 0.25;
+	oRouletteDoor.phy_position_x = phy_position_x;
+	oRouletteDoor.phy_position_y = phy_position_y + 177;
 	ds_list_clear(list);
+	repeat(20)
+		add_block_roulette(choose(oBlock1, oBlock2));
+	alarm[1] = irandom_range(90, 120);
+	alarm[2] = 1;
+
+	oPlayer.visible = false;
+	oPlayer.phy_active = false;
+	oPlayer.phy_position_x = room_width * 0.5;
+	oPlayer.phy_position_y = room_height * 0.5;
 }
 
 function add_block_roulette(obj) {
@@ -24,7 +35,7 @@ function add_block_roulette(obj) {
 	var len = random_range(radius * 0.2, radius-20);
 	var xx = lengthdir_x(len, dir);
 	var yy = lengthdir_y(len, dir);
-	var block = instance_create_layer(x+xx, y+yy,"Instances",obj);
+	var block = instance_create_layer(phy_position_x+xx, phy_position_y+yy,"Instances",obj);
 	block.on_activate();
 	block.phy_rotation = -dir;
 	
@@ -53,6 +64,7 @@ function create_fixture_sphere(startAngle, lastAngle, piece) {
 }
 
 function choose_block(block) {
+	ds_list_delete(list, ds_list_find_index(list,block));
 	block.on_choose();
 	block.isRoulette = false;
 	oBlackHole.add_block_blackhole(block);
@@ -61,4 +73,4 @@ function choose_block(block) {
 
 //create_fixture_sphere(0, 360, 10);
 create_fixture_sphere(-60, 240, 10);
-alarm[0] = 2;
+init();
