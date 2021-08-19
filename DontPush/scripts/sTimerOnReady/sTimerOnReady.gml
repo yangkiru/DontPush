@@ -6,4 +6,5 @@ function sTimerOnReady(){
 	oPlayer.set_fixture_density(oPlayer.density);
 	mTimer.time = 20 * room_speed;
 	onTimer = sTimerOnEnd;
+	with(eArrow) alphaSpd *= 5;
 }

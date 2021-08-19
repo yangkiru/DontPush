@@ -3,6 +3,8 @@
 function on_click_restart(){
 	show_debug_message("Button clicked: " + text);
 	with(cBlock) instance_destroy(id);
+	global.gameEnd = false;
+	mTimer.isTimer = false;
 	oRoulette.init();
 	
 	instance_destroy(oButton);

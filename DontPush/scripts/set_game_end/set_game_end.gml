@@ -3,6 +3,7 @@
 function set_game_end() {
 	global.gameEnd = true;
 	global.isReady = false;
+	with(cPattern) isInit = false;
 	with (mDeadManager) event_user(0); // create menu
 	show_debug_message("player dead");
 }
