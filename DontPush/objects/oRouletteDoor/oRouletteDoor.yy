@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Sprite9",
-    "path": "sprites/Sprite9/Sprite9.yy",
+    "name": "sRoulette",
+    "path": "sprites/sRoulette/sRoulette.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,14 +20,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":-26.0,},
-    {"x":170.0,"y":-26.0,},
-    {"x":170.0,"y":5.0,},
-    {"x":0.0,"y":5.0,},
+    {"x":87.0,"y":322.0,},
+    {"x":262.0,"y":322.0,},
+    {"x":262.0,"y":361.0,},
+    {"x":87.0,"y":361.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

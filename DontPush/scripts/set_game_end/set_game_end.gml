@@ -5,5 +5,6 @@ function set_game_end() {
 	global.isReady = false;
 	with(cPattern) isInit = false;
 	with (mDeadManager) event_user(0); // create menu
+	mTimer.isTimer = false;
 	show_debug_message("player dead");
 }

@@ -17,7 +17,7 @@ function init() {
 	phy_position_x = 0 - sprite_width;
 	phy_position_y = room_height * 0.25;
 	oRouletteDoor.phy_position_x = phy_position_x;
-	oRouletteDoor.phy_position_y = phy_position_y + 177;
+	oRouletteDoor.phy_position_y = phy_position_y;
 	ds_list_clear(list);
 	repeat(20)
 		add_block_roulette(choose(oBlock1, oBlock2));

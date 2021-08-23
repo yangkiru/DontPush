@@ -2,8 +2,9 @@
 isOpenable = true;
 alarm[4] = 20; // choose
 if (!isDisappear) {
-	var xx = random_range(oRouletteDoor.x - oRouletteDoor.sprite_width*0.5, oRouletteDoor.x + oRouletteDoor.sprite_width*0.5);
-	var yy = oRouletteDoor.y;
+	var hw = sprite_width * 0.5;
+	var xx = random_range(x-hw, x+hw);
+	var yy = y + sprite_height;
 	for (var i=0; i<ds_list_size(list); i++) {
 		var block = list[| i];
 		with(block) {
@@ -20,4 +21,9 @@ if (--chooseCurrent > 0) {
 } else {
 	alarm[5] = 180;
 }
-	//oRouletteDoor.open_door();
+
+if (keyboard_check(ord("T"))) {
+	alarm[5] = 1;
+	alarm[1] = 0;
+	alarm[4] = 0;
+}
